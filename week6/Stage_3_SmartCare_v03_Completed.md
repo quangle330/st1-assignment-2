@@ -71,7 +71,11 @@ Week 6 student resource
 
 # UML Class Diagram
 
+<<<<<<< HEAD
 Inside week 6 folder.
+=======
+UML class diagram in week 6 folder
+>>>>>>> 1b92890c91cc45f0a9eb24e9a92fd0d77935973e
 
 # Design Rationale
 
