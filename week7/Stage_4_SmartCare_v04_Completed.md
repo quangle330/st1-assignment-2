@@ -96,7 +96,7 @@ Week 7 student resource
 
 Insert updated UML only if implementation revealed a justified design change. Explain every change.  
 
-Updated UML in week 7 folder
+Updated UML in week 7 folder 
 
 1. Practitioner gains an id and specialty
 2. get_scheduled \_appointment() changed to get_scheduled_appointments()
