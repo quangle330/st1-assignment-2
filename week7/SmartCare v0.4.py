@@ -43,9 +43,9 @@ class Appointment:
     def __init__(self, patient: Patient, practitioner: Practitioner, time: str):
         if not time or not time.strip():
             raise ValueError("Appointment time cannot be empty")
-        self.patient() = patient
-        self.practitioner() = practitioner
-        self.time() = time.strip()
+        self.patient = patient
+        self.practitioner = practitioner
+        self.time = time.strip()
         self._status = "active"
         practitioner.add_appointment(self)
 
