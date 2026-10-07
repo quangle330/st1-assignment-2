@@ -25,7 +25,7 @@ class Practitioner:
         for appt in self._appointments:
             if appt.time == time and appt.status == "active":
                 return True
-            return False
+        return False
 
     def add_appointment(self, appointment):
         if self.has_conflict(appointment.time):
@@ -56,7 +56,7 @@ class Appointment:
     def cancel(self):
         if self._status != "active":
             raise ValueError("Only an active appointment is able to be cancelled")
-        self.status = "cancelled"
+        self._status = "cancelled"
 
 """SmartCare testing
 and lab activities"""
